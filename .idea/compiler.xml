@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ceam-activiti" />
+        <module name="ceam-framework" />
         <module name="ceam-web" />
         <module name="ceam-common" />
         <module name="ceam-system" />
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ceam-activiti" options="-parameters" />
       <module name="ceam-common" options="-parameters" />
+      <module name="ceam-framework" options="-parameters" />
       <module name="ceam-system" options="-parameters" />
       <module name="ceam-web" options="-parameters" />
     </option>
